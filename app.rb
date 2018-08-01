@@ -13,6 +13,8 @@ class App < Sinatra::Base
     "Hello #{@user_name}!"
   end
   
+  get '/goodbye/:name'do
+end
   # Code your final two routes here:
 
 end
